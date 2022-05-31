@@ -1,0 +1,96 @@
+﻿body {
+    direction: rtl;
+}
+
+header {
+    background-image: url(image1/svg.png);
+    height: 615px;
+    padding: 5px;
+    font-family: "El Messiri", sans-serif;
+}
+
+img {
+    margin: 5px;
+}
+
+#games {
+    margin-top: 0.5em;
+    align-items: center;
+    text-align: center;
+    color: #edaa45;
+    text-shadow: 0px 10px 10px #cecece;
+}
+/*//////////////////////////////////////////////*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+
+} 
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+ .content-section {
+    float: right;
+    width: 55%;
+    text-align:center;
+    
+}
+
+.image-section {
+    float: left;
+    width: 40%;
+}
+.image-section img {
+        width: 100%;
+        height: auto;
+        margin-right: 750px;
+        margin-bottom:-300px;
+}
+
+.vl {
+    border-left: 6px solid orange;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    top: 700px;
+}
+.p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+}
+.h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align:left;
+   float:left;
+   
+}
+.h1 {
+    text-align: left;
+    float: left;
+    margin-right:40px;
+}
+
+.h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    float: left;
+    margin-top:20px;
+    margin-left:-190px;
+}

@@ -1,0 +1,214 @@
+header {
+    background-image: url(image/svg.png); /*التصميم الحلو ذاك*/
+    position: absolute;
+    width: 1920px;
+    height: 625px;
+    left: 0px;
+    top: 0px;
+    /*اضفت خط عربي */
+    font-family: 'El Messiri', sans-serif;
+  }
+  
+  img {
+    margin: 5px;
+  }
+  #firstheader-news{
+    padding: 1em;
+    text-align: center;
+    color: #E78028;
+    position: static;
+    width: 1381px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+    #image1{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 1em;
+    position: static;
+    width: 1273px;
+    height: 636.5px;
+    padding-left: 5%;
+   }
+
+    #news1p{
+    padding: 1em;
+    text-align:left;
+    position: static;
+    left: 0px;
+    top: 56px;
+    font-family: Noto Sans Kannada UI;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+    #secondheader-news{
+    padding: 1em;
+    text-align: center;
+    color: #E78028;
+    position: static;
+    width: 1381px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+    #image2{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 1em;
+    position: static;
+    width: 1273px;
+    height: 636.5px;
+    padding-left: 5%;
+   }
+
+    #news2p{
+    padding: 1em;
+    text-align:left;
+    position: static;
+    left: 0px;
+    top: 56px;
+    font-family: Noto Sans Kannada UI;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+      #thirdheader-news{
+    padding: 1em;
+    text-align: center;
+    color: #E78028;
+    position: static;
+    width: 1381px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+    #image3{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 1em;
+    position: static;
+    width: 1273px;
+    height: 636.5px;
+    padding-left: 5%;
+   }
+
+    #news3p{
+    padding: 1em;
+    text-align:left;
+    position: static;
+    left: 0px;
+    top: 56px;
+    font-family: Noto Sans Kannada UI;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+     #fourthheader-news{
+    padding: 1em;
+    text-align: center;
+    color: #E78028;
+    position: static;
+    width: 1381px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+    #image6{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 1em;
+    position: static;
+    width: 1273px;
+    height: 636.5px;
+    padding-left: 5%;
+   }
+
+    #news4p{
+    padding: 1em;
+    text-align:left;
+    position: static;
+    left: 0px;
+    top: 56px;
+    font-family: Noto Sans Kannada UI;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+    #fifthheader-news{
+    padding: 1em;
+    text-align: center;
+    color: #E78028;
+    position: static;
+    width: 1381px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+    #image4{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 1em;
+    position: static;
+    width: 1273px;
+    height: 636.5px;
+    padding-left: 5%;
+   }
+
+    #news5p{
+    padding: 1em;
+    text-align:left;
+    position: static;
+    left: 0px;
+    top: 56px;
+    font-family: Noto Sans Kannada UI;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+  #basha {
+    float: left;
+    margin: 1em;
+    width: 150px;
+  }

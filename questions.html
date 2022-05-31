@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!--رابط الخط-->
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600&display=swap" rel="stylesheet">
+
+    <script type="text/javaScript" src="script.js"></script>
+
+    <title>صفحة الأسئلة</title>
+</head>
+
+<body>
+    <header>
+        <img onclick="myfunctionhome()" src="title.png" style="width: 151px; height: 151px;" /> <!--باشمبرمج لحاله--> 
+    </header>
+
+    <section class="questions">
+        <fieldset class="questions2">
+            <h4 class="questions4">ما هي الخدمة التي ترغب بها ؟</h4>
+            <input type="radio" id="role" name="role" value="Coding" />
+            <label class="questions3" for="role">برمجة</label><br>
+            <input type="radio" id="role" name="role" value="Design" />
+            <label class="questions3" for="role">تصميم</label><br>
+            <input type="radio" id="role" name="role" value="ComputerEng" />
+            <label class="questions3" for="role">هندسة الحاسب</label><br>
+            <input type="radio" id="role" name="role" value="DataAnalsis" />
+            <label class="questions3" for="role">محلل بيانات</label><br>
+            <br>
+            <br>
+            <h4 class="questions4">ما هو عدد الموظفين في شركتك ؟</h4>
+            <input type="radio" id="emp" name="emp" value="less50" />
+            <label class="questions3" for="emp">أقل من 50 أشخاص</label><br>
+            <input type="radio" id="emp" name="emp" value="50to250" />
+            <label class="questions3" for="emp">من 50 - 250 شخص</label><br>
+            <input type="radio" id="emp" name="emp" value="250to500" />
+            <label class="questions3" for="emp">من 250 - 500 شخص</label><br>
+            <input type="radio" id="emp" name="emp" value="more500" />
+            <label class="questions3" for="emp">أكثر من 500 شخص</label><br>
+            <br>
+            <br>
+            <h4 class="questions4">ماهي نوع الوظيفة التي تريد من الموظف ان يقوم بها ؟</h4>
+            <input type="radio" id="job" name="job" value="part" />
+            <label class="questions3" for="job">وظيفة بدوام جزئي</label><br>
+            <input type="radio" id="job" name="job" value="full" />
+            <label class="questions3" for="job">وظيفة بدوام كامل</label><br>
+            <input type="radio" id="job" name="job" value="hours" />
+            <label class="questions3" for="job">وظيفة بنظام الساعات</label><br>
+            <br>
+            <br>
+            <h4 class="questions4">ما مقدار ميزانيتك ؟</h4>
+            <input type="text" class="budget" id="budget" placeholder="ميزانيتك تقريبيا ..." style="margin-top: -40em;">
+            <br>
+            <br>
+            <input onclick="myfunctionsubmit()" type="submit" value="ارسال">
+        </fieldset>
+    </section>
+</body>
+
+</html>

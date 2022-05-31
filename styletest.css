@@ -1,0 +1,364 @@
+﻿body {
+    direction: rtl;
+}
+
+header {
+    background-image: url(image1/svg.png);
+    height: 615px;
+    padding: 5px;
+    font-family: "El Messiri", sans-serif;
+}
+
+img {
+    margin: 5px;
+}
+
+header > nav {
+    /*nav inside header*/
+    float: left;
+}
+
+nav {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+    nav li {
+        display: inline-block;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    nav #one,
+    #two {
+        border-left: 1px solid #757575;
+    }
+
+    nav li a {
+        padding-left: 15px;
+        color: #757575;
+        text-decoration: none;
+    }
+
+section img {
+    float: left;
+}
+
+section img {
+    position: fixed;
+    top: -120px;
+    left: 65px;
+    padding-bottom: 50px;
+}
+
+/*https://codepen.io/emanuelgsouza/pen/YVJOZo*/
+.button {
+    color: black;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    margin: 1em 0.8em;
+    font-family: "El Messiri", sans-serif;
+}
+
+    .button.games {
+        position: absolute;
+        left: 450px;
+        top: 665px;
+    }
+
+    .button.services {
+        position: absolute;
+        left: 570px;
+        top: 665px;
+    }
+
+    .button.news {
+        position: absolute;
+        left: 705px;
+        top: 665px;
+    }
+
+    .button:after,
+    .button:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        transition: all 0.3s ease;
+        transform: scale(0.85);
+    }
+
+    .button:hover:before {
+        top: 0;
+        transform: scale(1);
+    }
+
+    .button:hover:after {
+        transform: scale(1);
+    }
+
+
+
+    /*https://codepen.io/emanuelgsouza/pen/YVJOZo*/
+.b {
+    color:lightsalmon;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    font-family: "El Messiri", sans-serif;
+    color: lightsalmon;
+}
+
+    .b:after,
+    .b:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color:lightsalmon;
+        transition: all 0.3s ease;
+        transform: scale(0.85);
+    }
+
+    .b:hover:before {
+        top: 0;
+        transform: scale(1);
+    }
+
+    .b:hover:after {
+        transform: scale(1);
+    }
+
+    #basha {
+        float: left;
+        margin: 1em;
+        width: 150px;
+      }
+
+
+
+
+
+#inform {
+    font-family: "El Messiri", sans-serif;
+    position: absolute;
+    left: 800px;
+    top: 265px;
+    right: 150px;
+    font-size: 20px;
+    padding-left: 50px;
+}
+/* /////////////////////// game style /////////////////////// */
+#games {
+    margin-top: 0.5em;
+    align-items: center;
+    text-align: center;
+    color: #edaa45;
+    text-shadow: 0px 10px 10px #cecece;
+}
+
+#bp {
+    font-size: 25px;
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+    margin-right: 5em;
+}
+
+    #bp:hover {
+        color: palevioletred;
+    }
+
+#ip {
+    font-size: 25px;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 14em;
+}
+
+#hp {
+    font-size: 25px;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 10em;
+}
+
+#stage-easyp {
+    font-size: 27px;
+    color: palevioletred;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 1em;
+    border: 1px solid #cecece;
+    text-align: center;
+}
+
+#space {
+    position: absolute;
+    margin-top: 58em;
+    margin-left: 72em;
+}
+
+#coding {
+    position: absolute;
+    margin-top: 58em;
+    margin-left: 49em;
+}
+
+#beaver {
+    position: absolute;
+    margin-top: 58em;
+    margin-left: 22.5em;
+}
+
+#stage-halfp {
+    font-size: 27px;
+    color: palevioletred;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 1em;
+    border: 1px solid #cecece;
+    text-align: center;
+    margin-top: 18em;
+}
+
+#jump {
+    position: absolute;
+    margin-top: 102em;
+    margin-left: 73em;
+}
+
+#moon {
+    position: absolute;
+    margin-top: 102em;
+    margin-left: 48.5em;
+}
+
+#banana {
+    position: absolute;
+    margin-top: 102em;
+    margin-left: 24em;
+}
+
+#game {
+    position: absolute;
+    margin-top: 102em;
+    margin-left: 0.5em;
+}
+
+#dodo {
+    position: absolute;
+    margin-top: 58em;
+    margin-left: 1em;
+}
+
+#d {
+    font-size: 25px;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 7em;
+}
+
+#stage-hardp {
+    font-size: 27px;
+    color: palevioletred;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 1em;
+    border: 1px solid #cecece;
+    text-align: center;
+    margin-top: 18em;
+}
+
+#hour {
+    position: absolute;
+    margin-top: 140em;
+    margin-left: 73em;
+}
+
+#code {
+    position: absolute;
+    margin-top: 140em;
+    margin-left: 48.5em;
+}
+
+#diner {
+    position: absolute;
+    margin-top: 140em;
+    margin-left: 24em;
+}
+
+/* /////////////////////// services style /////////////////////// */
+
+.container {
+    max-width: 1280px;
+    margin: 10px 166px 2px 100px;
+    overflow: auto;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+#services {
+    margin-top: 0.5em;
+    align-items: center;
+    text-align: center;
+    color: #edaa45;
+    text-shadow: 0px 10px 10px #cecece;
+}
+
+gallery img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.gallery {
+    margin: 50px;
+    float: left;
+    width: 390px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*///////////////////////////////service coding ////////////////////////////////*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    overflow: auto;
+}
+
+
+•gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+
+    •gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+

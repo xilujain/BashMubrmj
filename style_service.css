@@ -1,0 +1,355 @@
+﻿body {
+    direction: rtl;
+}
+
+header {
+    background-image: url(image1/svg.png);
+    height: 615px;
+    padding: 5px;
+    font-family: "El Messiri", sans-serif;
+}
+
+img {
+    margin: 5px;
+}
+
+header > nav {
+    /*nav inside header*/
+    float: left;
+}
+
+nav {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+    nav li {
+        display: inline-block;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    nav #one,
+    #two {
+        border-left: 1px solid #757575;
+    }
+
+    nav li a {
+        padding-left: 15px;
+        color: #757575;
+        text-decoration: none;
+    }
+
+section img {
+    float: left;
+}
+
+section img {
+    position: fixed;
+    top: -120px;
+    left: 65px;
+    padding-bottom: 50px;
+}
+
+/*https://codepen.io/emanuelgsouza/pen/YVJOZo*/
+.button {
+    color: black;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    margin: 1em 0.8em;
+    font-family: "El Messiri", sans-serif;
+}
+
+    .button.games {
+        position: absolute;
+        left: 450px;
+        top: 665px;
+    }
+
+    .button.services {
+        position: absolute;
+        left: 570px;
+        top: 665px;
+    }
+
+    .button.news {
+        position: absolute;
+        left: 705px;
+        top: 665px;
+    }
+
+    .button:after,
+    .button:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        transition: all 0.3s ease;
+        transform: scale(0.85);
+    }
+
+    .button:hover:before {
+        top: 0;
+        transform: scale(1);
+    }
+
+    .button:hover:after {
+        transform: scale(1);
+    }
+
+#inform {
+    font-family: "El Messiri", sans-serif;
+    position: absolute;
+    left: 800px;
+    top: 265px;
+    right: 150px;
+    font-size: 20px;
+    padding-left: 50px;
+}
+/* /////////////////////// game style /////////////////////// */
+#games {
+    margin-top: 0.5em;
+    align-items: center;
+    text-align: center;
+    color: #edaa45;
+    text-shadow: 0px 10px 10px #cecece;
+}
+
+#bp {
+    font-size: 25px;
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+    margin-right: 5em;
+}
+
+    #bp:hover {
+        color: palevioletred;
+    }
+
+#ip {
+    font-size: 25px;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 14em;
+}
+
+#hp {
+    font-size: 25px;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 10em;
+}
+
+#stage-easyp {
+    font-size: 27px;
+    color: palevioletred;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 1em;
+    border: 1px solid #cecece;
+    text-align: center;
+}
+
+#space {
+    position: absolute;
+    margin-top: 58em;
+    margin-left: 72em;
+}
+
+#coding {
+    position: absolute;
+    margin-top: 58em;
+    margin-left: 49em;
+}
+
+#beaver {
+    position: absolute;
+    margin-top: 58em;
+    margin-left: 22.5em;
+}
+
+#stage-halfp {
+    font-size: 27px;
+    color: palevioletred;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 1em;
+    border: 1px solid #cecece;
+    text-align: center;
+    margin-top: 18em;
+}
+
+#jump {
+    position: absolute;
+    margin-top: 102em;
+    margin-left: 73em;
+}
+
+#moon {
+    position: absolute;
+    margin-top: 102em;
+    margin-left: 48.5em;
+}
+
+#banana {
+    position: absolute;
+    margin-top: 102em;
+    margin-left: 24em;
+}
+
+#game {
+    position: absolute;
+    margin-top: 102em;
+    margin-left: 0.5em;
+}
+
+#dodo {
+    position: absolute;
+    margin-top: 58em;
+    margin-left: 1em;
+}
+
+#d {
+    font-size: 25px;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 7em;
+}
+
+#stage-hardp {
+    font-size: 27px;
+    color: palevioletred;
+    font-family: "El Messiri", sans-serif;
+    margin-right: 1em;
+    border: 1px solid #cecece;
+    text-align: center;
+    margin-top: 18em;
+}
+
+#hour {
+    position: absolute;
+    margin-top: 140em;
+    margin-left: 73em;
+}
+
+#code {
+    position: absolute;
+    margin-top: 140em;
+    margin-left: 48.5em;
+}
+
+#diner {
+    position: absolute;
+    margin-top: 140em;
+    margin-left: 24em;
+}
+
+/* /////////////////////// services style /////////////////////// */
+
+
+#basha {
+    float: left;
+    margin: 1em;
+    width: 150px;
+  }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+#services {
+    margin-top: 0.5em;
+    align-items: center;
+    text-align: center;
+    color: #edaa45;
+    text-shadow: 0px 10px 10px #cecece;
+}
+
+gallery img {
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+.gallery {
+   
+    float: left;
+    width: 600px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*///////////////////////////////service coding ////////////////////////////////*/
+.container {
+    max-width: 1300px;
+    margin: 50px 150px 30px 50px;
+    background-color: white;
+    overflow:  auto;
+}
+
+.p1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: 255px;
+    font-size: 40px;
+}
+
+.p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.p3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 440px;
+}
+
+.p4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.p5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 200px;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 250px;
+}
+
+.p6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 1px;
+}
+
+.p7 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 370px;
+}
+
+.p8 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    font-size: 40px;
+    margin-right: 55px;
+    margin-top:-70px;
+}

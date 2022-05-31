@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>الأخبار</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javaScript" src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <img onclick="myfunctionhome()" src="image/title.png" id="basha"/>
+      <h1 style="font-size: 100px" id="news">الأخبار</h1>
+    </header>
+
+    <div class="slideshow-container">
+      <div class="myslides fade">
+        <div class="numbertext">1/5</div>
+        <img onclick="myfunctionfirstnews()" src="image/header-image-1.png" style="width: 100%" />
+      </div>
+
+      <div class="myslides fade">
+        <div class="numbertext">2/5</div>
+        <img onclick="myfunctionSecondnews()" src="image/header-image-2.png" style="width: 100%" />
+      </div>
+
+      <div class="myslides fade">
+        <div class="numbertext">3/5</div>
+        <img onclick="myfunctionThirdnews()" src="image/header-image-3.png" style="width: 100%" />
+      </div>
+
+      <div class="myslides fade">
+        <div class="numbertext">4/5</div>
+        <img onclick="myfunctionFifthnews()" src="image/header-image-4.png" style="width: 100%" />
+      </div>
+
+      <div class="myslides fade">
+        <div class="numbertext">5/5</div>
+        <img onclick="myfunctionFourthnews()" src="image/header-image-6.png" style="width: 100%" />
+      </div>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentslide(1)"></span>
+      <span class="dot" onclick="currentslide(2)"></span>
+      <span class="dot" onclick="currentslide(3)"></span>
+      <span class="dot" onclick="currentslide(4)"></span>
+      <span class="dot" onclick="currentslide(5)"></span>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- ////////////////////////////////////////// -->
+    <h1 id="header-news">آخر الأخبار التقنية</h1>
+    <div class="container-news">
+      <div class="container1">
+        <img src="image/header-image-1.png" id="img1" />
+        <p onclick="myfunctionfirstnews()" id="img1-p">
+          COMPUTER SCIENTISTS FIND A KEY RESEARCH ALGORITHM’S LIMITS
+        </p>
+      </div>
+      <div class="container1">
+        <img src="image/header-image-2.png" id="img1" />
+        <p onclick="myfunctionSecondnews()" id="img1-p">
+          TECHNOLOGIES CAN HELP DRIVERS MAINTAIN THE TWO-SECOND RULE TO IMPROVE
+          ROAD SAFETY AND TRAFFIC FLOW
+        </p>
+      </div>
+      <div class="container1">
+        <img src="image/header-image-3.png" id="img1" />
+        <p onclick="myfunctionThirdnews()" id="img1-p">
+          A TECHNIQUE THAT ALLOWS ROBOTS TO DETECT WHEN HUMANS NEED HELP
+        </p>
+      </div>
+      <div class="container1">
+        <img src="image/header-image-4.png" id="img1" />
+        <p onclick="myfunctionFifthnews()" id="img1-p">HOW WILL MACHINE LEARNING CHANGE SCIENCE ?</p>
+      </div>
+      <div class="container1">
+        <img src="image/header-image-6.png" id="img1" />
+        <p onclick="myfunctionFourthnews()" id="img1-p">
+          CODEX, AN AI SYSTEM THAT TRANSLATES NATURAL LANGUAGE TO PROGRAMMING
+          CODE
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var slideindex = 1;
+      showslides(slideindex);
+      function currentslide(n) {
+        showslides((slideindex = n));
+      }
+      function showslides(n) {
+        var i;
+        var slides = document.getElementsByClassName("myslides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideindex = 1;
+        }
+        if (n < 1) {
+          slideindex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideindex - 1].style.display = "block";
+        dots[slideindex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>
